@@ -1,0 +1,19 @@
+body{
+    background-image: url(../image/bg1.jpg);
+    display: flex;
+    align-items: center;
+
+}
+
+.texto .obrigada{
+    font-size: 80px;
+}
+
+.texto{
+    width: 100%;
+    height: 100vh;
+}
+
+.button a {
+    font-size: 40px;
+}
