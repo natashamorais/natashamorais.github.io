@@ -1,0 +1,65 @@
+
+.navbar{
+    position: fixed;
+    z-index: 9;
+}
+.header{
+    background-image: url(../image/bg1.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+font-weight: bold;
+font-size: 75px;
+}
+.sobre-mim{
+background-image: url(../image/white.jpg);
+height: 100vh;
+display:flex;
+align-items: center;
+}
+
+.barras{
+   
+  
+}
+.carousel{
+    max-width: 1000px;
+   
+}
+.carousel img{
+    max-width: 1000px;
+}
+
+
+.contato{
+    background-image: url(../image/white.jpg);
+    height: 100vh;
+}
+
+
+
+.footer-copyright{
+    height: 65px;
+}
+
+span.error{
+    font-size: 14px;
+    font-weight: bold;
+    color: purple;
+    letter-spacing: 0.5px;
+}
+
+input.error{
+    border-color: purple;
+}
+
+textarea.error{
+    border-color: purple;
+}

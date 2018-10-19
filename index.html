@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger w-100">
+        <a class="navbar-brand text-monospace" href="#">{natasha morais}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-monospace" href="#"> {sobre mim}
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-monospace" href="#">{o que eu já fiz}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-monospace" href="#">{entre em contato comigo}</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header w-100">
+        <div class="container">
+            <h1 class="titulo text-monospace text-center"> &#60;Hello World/&#62;</h1>
+            <h1 class="titulo text-monospace text-center"> Eu sou a Natasha Morais uma desenvolvedora de sites e programadora front-end
+            </h1>
+        </div>
+    </header>
+    <div class="background">
+
+        <div class="container">
+
+            <section class="sobre-mim w-100 mp-1">
+                <h2 class="text-monospace text-center"> Sobre mim </h2>
+
+                <p class="text-monospace col-4 offset-md-4 text-center"> Eu sou uma pessoa apaixonada por programar e
+                    tecnologia que sempre tenta desenvolver sempre pensando na experiência de todos os usuários fazendo aplicações sempre acessíveis para o maior numero de pessoas possiveis num design único e eficiente. </p>
+
+            </section>
+
+            <section class="habilidades">
+                <div class="barras">
+                    <h2 class="text-monospace text-center mb-5 pb-5"> O que eu sei fazer? </h2>
+                    <div class="barras mb-5 pb-5">
+                        <div class="progress my-2">
+                            <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">CSS</div>
+                        </div>
+                        <div class="progress my-2">
+                            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">HTML</div>
+                        </div>
+
+                        <div class="progress my-2">
+                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                                JAVASCRIPT</div>
+                        </div>
+
+                        <div class="progress my-2">
+                            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">SASS</div>
+                        </div>
+
+                        <div class="progress my-2">
+                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">BOOTSTRAP</div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="portifolio">
+            <h2 class="text-monospace text-center"> O que eu já fiz </h2>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade mx-auto m-5 p-5" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block" src="image/bell-hooks-1.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block" src="image/beyonce.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block" src="image/to-do-list.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block" src="image/mundo-gelado-1.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block" src="image/mundo-gelado-2.png" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+
+        </section>
+
+
+
+        <section class="contato">
+            <h2 class="text-monospace text-center mt-1">Entre em contato comigo</h4>
+                <form class="form-contato col-5 mx-auto">
+                    <div class="form-group">
+                        <label class="text-monospace" for="nameInput">Seu nome</label>
+                        <input type="text" class="form-control" id="nameInput" placeholder="Enter Name" name="nome">
+                    </div>
+                    <div class="info row">
+                        <div class="form-group col-6">
+                            <label class="text-monospace" for="emailInput">Seu email </label>
+                            <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp"
+                                placeholder="Enter email" name="email">
+
+                        </div>
+
+                        <div class="form-group col-6">
+                            <label class="text-monospace" for="telephoneInput">Seu telefone</label>
+                            <input type="number" class="form-control" id="telephoneInput" aria-describedby="emailHelp"
+                                placeholder="(11) 1111-1111" name="telefone">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-monospace" for="mensagemInput"> Me conta a sua ideia</label>
+                        <textarea class="form-control" id="mensagemInput" rows="10" name="mensagem" placeholder="Use esse espaço pra me dizer porque você está entrando em contato e que projeto você quer desenvolver comigo"></textarea>
+                    </div>
+                    <button class="btn btn enviar"> enviar </button>
+                </form>
+
+
+        </section>
+
+
+    </div>
+
+    <footer class="footer-copyright bg-danger">
+        <div class="container">
+
+            <p class="text-monospace text-center">Copyright Natasha Morais 2018</p>
+        </div>
+    </footer>
+
+
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"> </script>
+    <script src="js/jquery.validate.min.js">
+    </script>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"> </script>
+    <script src="js/scrip.js"> </script>
+
+    <link rel="stylesheet" href="css/style.css">
+</body>
+
+</html>
